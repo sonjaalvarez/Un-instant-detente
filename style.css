@@ -1,0 +1,161 @@
+/* Write some CSS below */
+body {
+font-family: Overpass;
+font-size : 30px;
+background-color: rgb(230, 230, 230); 
+color: rgb(30, 30, 30);
+
+}
+
+h1, h2 {
+font-family: chivo;
+}
+
+h2{
+	font-size: 32px;
+}
+
+h3{
+
+font-size: 24px;
+
+}
+
+h4 {
+font-family: overpass;
+font-size: 20px;
+font-weight: lighter;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.banner {
+	text-align: center;
+	background-image: url(images/feuilles.jpg);
+	background-size: cover;
+	height: 250px;
+	background-position: center;
+	color:  white;
+	padding:  100px 0px;
+
+}
+
+.btn-yellow {
+
+	background-color : #698F7A;
+	padding : 10px 45px;
+	border-radius: 4px;
+	margin : 15px;
+	color: white;
+	font-size: 16px;
+
+}
+.container{
+
+	width: 900px;
+	margin: auto;
+	margin-bottom: 34px;
+
+}
+
+.card-white {
+
+	background-color: white;
+	width: 200px;
+	height: 300px;
+	text-align: center;
+	padding: 24px;
+	margin: 12px;
+	border-radius: 4px;
+	box-shadow: 0px 0px 7px rgba(0,0,0,0.1);
+	}
+
+
+.card-white img {
+
+	width: 200px ;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 4px;
+	}
+
+
+.article {
+
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-gap: 16px;
+	background-color: rgb(250, 250, 250); 
+	padding-bottom: 30px ;
+	padding: 30px;
+
+	}
+
+.texte-article{
+
+padding-top: auto;
+color: rgb(30, 30, 30);
+
+}
+
+
+.photo-article img{
+
+	width: 600px ;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 2px;
+	}
+
+.article2 {
+
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-gap: 16px;
+	background-color: rgb(250, 250, 250); 
+	padding-bottom: 10px ;
+	padding: 10px;
+
+	}
+
+#titre2{
+	padding: 10px;
+	margin: auto;
+
+}
+
+.texte-article2{
+
+padding-top: 0px;
+color: rgb(30, 30, 30);
+margin: auto;
+}
+
+
+.photo-article2 img{
+
+	width: 600px ;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 2px;
+	}
+
+.footer{
+
+	background-color: #698F7A;
+	margin-bottom: 0px;
+	padding: 24px;
+	text-align: center;
+
+}
+
+
+.grille{
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
